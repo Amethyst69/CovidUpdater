@@ -1,0 +1,79 @@
+body {
+	background-color: #282A36;
+}
+
+h1 {
+	padding: 20px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #FFFFFF;
+	background-color: #44475A;
+}
+
+div {
+	text-align: center;
+	padding-top: 60px;
+	display: inline-block;
+	width: 100%;
+}
+
+table {
+	display: flex;
+	width: 400px;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-radius: 5px;
+	border-spacing: 10px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #44475A;
+}
+
+#error-output {
+	color: #FF5555;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.key-info {
+	color: #F1FA8C;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.value-info {
+	color: #50FA7B;
+	text-align: center;
+	padding-left: 50px;
+}
+
+#country-field {
+	border-radius: 3px;
+	border: 2px solid #6272A4;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	height: 35px;
+	width: 180px;
+	outline: none;
+}
+
+#search-btn {
+	border-radius: 3px;
+	border-width: 0px;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-top: 3px;
+	height: 35px;
+	width: 75px;
+	background-color: #6272A4;
+	color: #FFFFFF;
+	outline: none;
+}
+
+#search-btn:hover {
+	background-color: #50FA7B;
+}
